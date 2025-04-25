@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Code") {
             steps {
-                git url: "https://github.com/LondheShubham153/django-notes-app.git", branch: "main"
+                git url: 'https://github.com/pank07/django-notes-app.git', credentialsId: 'github-token'
                 echo "Code cloned successfully"
             }
         }
