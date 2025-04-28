@@ -1,10 +1,10 @@
 pipeline {
-    agent { label "Jenkins-agent-1" }
+    agent { label "Agent-1" }
 
     stages {
         stage("Code") {
             steps {
-                git url: 'https://github.com/pank07/django-notes-app.git', credentialsId: 'github-token'
+                git url: 'https://github.com/pank07/django-notes-app.git', credentialsId: 'github-PAT'
                 echo "Code cloned successfully"
             }
         }
