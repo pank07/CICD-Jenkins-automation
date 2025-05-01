@@ -40,13 +40,9 @@ pipeline {
         stage("Deploy") {
             steps {
                 echo "Deploying the code"
-                sh '''
-                    set -ex
-                    docker-compose --version
-                    docker-compose down
-                    docker-compose up -d
-                '''
+                     sh "docker-compose down && docker-compose up -d "
             }
         }
     }
 }
+                                    
