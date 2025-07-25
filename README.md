@@ -39,16 +39,18 @@ sudo apt innstall jenkins -y
 ```
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
-``
+```
 - Step:8 Check status
 ```
 sudo systemctl status jenkins
 ```
+
 - Step:9 Open Port 8080 (UFW or Firewall)
 ```
 sudo ufw allow 8080
 sudo ufw reload
 ```
+
 
 # Simple Notes App for learning
 This is a simple notes app built with React and Django.
