@@ -18,7 +18,7 @@ sudo apt install openjdk-17-jdk -y
   ```
   
 - Step:4 Add jenkins package Repository
-  ```
+```
   curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 ```
