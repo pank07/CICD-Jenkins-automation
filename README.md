@@ -33,7 +33,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 - Step:6 Update and install jenkins
 ```
 sudo apt update
-sudo apt innstall jenkins -y
+sudo apt install jenkins -y
 ```
 - Step:7 Start and Enable Jenkins
 ```
