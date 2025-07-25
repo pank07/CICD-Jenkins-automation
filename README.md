@@ -20,13 +20,15 @@
   ```
   curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-```  
+```
+ 
 - Step:5 Now add the Repo
 ```
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 ```
+
 - Step:6 Update and install jenkins
 ```
 sudo apt update
