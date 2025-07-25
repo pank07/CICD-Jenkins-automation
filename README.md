@@ -51,6 +51,10 @@ sudo ufw allow 8080
 sudo ufw reload
 ```
 
+- Step:10 get Inital Admin Password
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
 
 # Simple Notes App for learning
 This is a simple notes app built with React and Django.
